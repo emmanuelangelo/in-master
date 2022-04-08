@@ -1,0 +1,4 @@
+{
+  "plugins": ["sonarjs"],
+  "extends": ["next","next/core-web-vitals","eslint:recommended", "prettier", "plugin:sonarjs/recommended"]
+}

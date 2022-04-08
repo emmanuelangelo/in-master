@@ -1,0 +1,20 @@
+@import "../../styles/mixins";
+
+.label {
+  @include spec-l;
+
+  align-self: flex-start;
+  margin-left: 20px;
+}
+
+.container {
+  @include shadow-primary;
+  @include border-l;
+  @include input-base;
+
+  select {
+    @include spec-s;
+
+    width: 100%;
+  }
+}

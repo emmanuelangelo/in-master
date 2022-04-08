@@ -1,0 +1,15 @@
+@import "styles/mixins";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 410px;
+  margin: 0 auto;
+
+  h1 {
+    @include heading-h1;
+
+    margin: 20px 0 0 20px;
+  }
+}
